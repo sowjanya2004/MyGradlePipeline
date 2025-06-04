@@ -28,7 +28,6 @@ stage('Run Application'){
 steps{
 sh 'gradle run'
 }
-
 }
 
 }
@@ -40,6 +39,7 @@ echo 'build successful'
 
 failure{
 echo 'build failure'
+}
 }
 }
 
